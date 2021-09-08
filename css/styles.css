@@ -4,3 +4,63 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Tag */
+
+/* Id */
+header{
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: transparent;
+    text-align: right;
+}
+
+/* Classi */
+
+/* Menù */
+nav ul li{
+    display: inline-block;
+    color: #000;
+    background-color: #fff;
+    border-radius:50%;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    line-height: 25px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+/* Sezioni */
+.full-height{
+    height: 100vh;
+    position: relative;
+}
+.bg-red{
+    background-color: #ff0000;
+}
+.bg-green{
+    background-color: #008000;
+}
+.bg-yellow{
+    background-color: #ffff00;
+}
+.full-height-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffff00;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+.bg-yellow .full-height-container{
+    color: #008000;
+}
